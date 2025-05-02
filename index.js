@@ -10,12 +10,4 @@ const {url} = await startStandaloneServer(server, {
   listen: {port: 4000}
 })
 
-server.log('Server ready at port: 4000')
-// {
-//   // ...etc.
-//   "type": "module",
-//   "scripts": {
-//     "start": "node index.js"
-//   }
-//   // other dependencies
-// }
+console.log('Server ready at port: 4000')
