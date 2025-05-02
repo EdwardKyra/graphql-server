@@ -1,0 +1,41 @@
+{
+  "data": {
+    "games": [
+      {
+        "title": "Zelda, Tears of the Kingdom",
+        "platform": [
+          "Switch"
+        ]
+      },
+      {
+        "title": "Final Fantasy 7 Remake",
+        "platform": [
+          "PS5",
+          "Xbox"
+        ]
+      },
+      {
+        "title": "Elden Ring",
+        "platform": [
+          "PS5",
+          "Xbox",
+          "PC"
+        ]
+      },
+      {
+        "title": "Mario Kart",
+        "platform": [
+          "Switch"
+        ]
+      },
+      {
+        "title": "Pokemon Scarlet",
+        "platform": [
+          "PS5",
+          "Xbox",
+          "PC"
+        ]
+      }
+    ]
+  }
+}
