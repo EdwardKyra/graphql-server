@@ -4,3 +4,14 @@ query GamesQuery {
     platform
   }
 }
+
+------------------
+query will only return 1 output you ask for 
+------------------
+query ReviewQuery($id: ID!, $reviewId: ID!) {
+  review(id: $id) {
+    id,
+    rating,
+    content
+  }
+}

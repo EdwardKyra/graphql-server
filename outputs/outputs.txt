@@ -39,3 +39,16 @@
     ]
   }
 }
+
+------------------
+query will only return 1 output you ask for 
+------------------
+{
+  "data": {
+    "review": {
+      "id": "1",
+      "rating": 9,
+      "content": "lorem ipsum"
+    }
+  }
+}
