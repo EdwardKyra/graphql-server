@@ -1,30 +1,29 @@
 import { ApolloServer } from "@apollo/server"
 import { startStandaloneServer } from "@apollo/server/standalone"
-import { typeDefs } from "./schema"
+import { typeDefs } from "./schema.js"
 import db from './_db.js'
-import { DiffieHellmanGroup } from "crypto"
 
 const resolvers = {
   Query: {
-    games(){
+    games() {
       return db.games
-    }, 
-    reviews(){
+    },
+    reviews() {
       return db.reviews
-    }, 
-    authors(){
+    },
+    authors() {
       return db.authors
-    }
-  }
+    },
+  },
 }
 
 const server = new ApolloServer({
   typeDefs,
-  resolvers
+  resolvers,
 })
 
-const {url} = await startStandaloneServer(server, {
-  listen: {port: 4000}
+const { url } = await startStandaloneServer(server, {
+  listen: { port: 4000 },
 })
 
-console.log('Server ready at port: 4000')
+console.log(`Server ready at ${url}`)
