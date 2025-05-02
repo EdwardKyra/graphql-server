@@ -6,20 +6,20 @@ type Game {
 }
 
 type Review {
-    id: ID!
-    rating: int!
-    content: String!
+  id: ID!
+  rating: Int!
+  content: String!
 }
 
 type Author {
-    id: ID!
-    name: String!
-    verified: boolean
+  id: ID!
+  name: String!
+  verified: Boolean
 }
 
-type Query{
-    reviews: [Review]
-    games: [Game]
-    authors: [Author] 
+type Query {
+  reviews: [Review]
+  games: [Game]
+  authors: [Author]
 }
 `;
