@@ -2,6 +2,7 @@ import { ApolloServer } from "@apollo/server"
 import { startStandaloneServer } from "@apollo/server/standalone"
 import { typeDefs } from "./schema"
 import db from './_db.js'
+import { DiffieHellmanGroup } from "crypto"
 
 const resolvers = {
   Query: {
