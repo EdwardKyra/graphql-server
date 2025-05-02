@@ -15,3 +15,16 @@ query ReviewQuery($id: ID!, $reviewId: ID!) {
     content
   }
 }
+
+-----------------
+made the ability to put nested inputs 
+-----------------
+query ReviewQuery($id: ID!) {
+  game(id: $id) {
+    title,
+    reviews {
+      content
+    }
+  }
+}
+

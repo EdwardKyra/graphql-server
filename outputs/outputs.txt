@@ -52,3 +52,22 @@ query will only return 1 output you ask for
     }
   }
 }
+
+-----------------
+made the ability to put nested inputs 
+-----------------
+{
+  "data": {
+    "game": {
+      "title": "Final Fantasy 7 Remake",
+      "reviews": [
+        {
+          "content": "lorem ipsum"
+        },
+        {
+          "content": "lorem ipsum"
+        }
+      ]
+    }
+  }
+}
