@@ -71,3 +71,44 @@ made the ability to put nested inputs
     }
   }
 }
+-----------------
+made the abilities to delete games 
+-----------------
+{
+  "data": {
+    "deleteGame": [
+      {
+        "id": "1",
+        "title": "Zelda, Tears of the Kingdom",
+        "platform": [
+          "Switch"
+        ]
+      },
+      {
+        "id": "3",
+        "title": "Elden Ring",
+        "platform": [
+          "PS5",
+          "Xbox",
+          "PC"
+        ]
+      },
+      {
+        "id": "4",
+        "title": "Mario Kart",
+        "platform": [
+          "Switch"
+        ]
+      },
+      {
+        "id": "5",
+        "title": "Pokemon Scarlet",
+        "platform": [
+          "PS5",
+          "Xbox",
+          "PC"
+        ]
+      }
+    ]
+  }
+}

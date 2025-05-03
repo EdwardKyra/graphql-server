@@ -32,3 +32,14 @@ query ReviewQuery($id: ID!) {
   }
 }
 
+-----------------
+made the abilities to delete games 
+-----------------
+mutation Deletemutation($id: ID!, $deleteGameId: ID!){
+  deleteGame(id: $id){
+    id,
+    title,
+    platform
+  }
+}
+
