@@ -62,3 +62,13 @@ variables
     "platform": ["switch", "PS5"]
   }
 }
+
+-----------------
+made the abilities to edit games 
+-----------------
+mutation Editmutation($edits: EditGameInput!, $id: ID!){
+  updateGame(edits: $edits, id: $id){
+    title,
+    title,
+  }
+}

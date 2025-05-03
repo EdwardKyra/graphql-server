@@ -158,3 +158,14 @@ updated games query
     ]
   }
 }
+
+-----------------
+made the abilities to edit games 
+-----------------
+{
+  "data": {
+    "updateGame": {
+      "title": "dark souls"
+    }
+  }
+}
