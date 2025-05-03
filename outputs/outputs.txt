@@ -112,3 +112,49 @@ made the abilities to delete games
     ]
   }
 }
+
+-----------------
+made the abilities to add games 
+-----------------
+{
+  "data": {
+    "addGame": {
+      "id": "7074",
+      "title": "a new game"
+    }
+  }
+}
+
+-----------------
+updated games query 
+-----------------
+{
+  "data": {
+    "games": [
+      {
+        "title": "Zelda, Tears of the Kingdom",
+        "id": "1"
+      },
+      {
+        "title": "Final Fantasy 7 Remake",
+        "id": "2"
+      },
+      {
+        "title": "Elden Ring",
+        "id": "3"
+      },
+      {
+        "title": "Mario Kart",
+        "id": "4"
+      },
+      {
+        "title": "Pokemon Scarlet",
+        "id": "5"
+      },
+      {
+        "title": "a new game",
+        "id": "7074"
+      }
+    ]
+  }
+}

@@ -43,3 +43,22 @@ mutation Deletemutation($id: ID!, $deleteGameId: ID!){
   }
 }
 
+-----------------
+made the abilities to add games 
+-----------------
+
+mutation Addmutation($game: AddGameInput!){
+  addGame(game: $game){
+    id,
+    title,
+  }
+}
+-----
+variables
+-----
+{
+  "game" : {
+    "title": "a new game",
+    "platform": ["switch", "PS5"]
+  }
+}
